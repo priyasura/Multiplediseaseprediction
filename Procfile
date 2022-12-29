@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run multiple diseases prediction.py
+web: sh setup.sh && streamlit run multiplediseasesprediction_public.py
