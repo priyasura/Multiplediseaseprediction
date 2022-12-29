@@ -92,7 +92,7 @@ if (selected == "Diabetes Prediction"):
             diabetes_prediction='This person is having diabetes 😷'
             st.write("get well soon !!!!!")
         else:
-            diabetes_prediction='not having heart disease'
+            diabetes_prediction='not having diabetes disease'
             st.balloons()
     st.success(diabetes_prediction)
 
@@ -119,7 +119,7 @@ if (selected == "Breast Cancer"):
            breastcancer_diagonsis='This person is having the symtoms of breast cancer 😷'
            st.write("get well soon !!!!!")
        else:
-           breastcancer_diagonsis='not having heart disease'
+           breastcancer_diagonsis='not having breast cancer disease'
            st.balloons()
    st.success(breastcancer_diagonsis)    
        
