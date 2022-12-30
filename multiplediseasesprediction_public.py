@@ -14,7 +14,7 @@ breastcancer_model=pickle.load(open('breastcancer_model.sav', 'rb'))
 #sidebar for navigation
 with st.sidebar:
     selected=option_menu('Multiple Diseases Prediction',
-                         ['Heart Diseases','Diabetes Prediction','Breast Cancer'],
+                         ['Heart Diseases Prediction','Diabetes Prediction','Breast Cancer Prediction'],
                          icons = ['heart','activity','person'],
                          default_index=0)
 
