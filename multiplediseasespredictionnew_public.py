@@ -9,9 +9,9 @@ import streamlit as st
 
 from streamlit_option_menu import option_menu
 
-heart_disease_model=pickle.load(open('"D:Multiple Diseases Prection/heart_disease_prediction_model.sav"','rb'))
+heart_disease_model=pickle.load(open('"D:/Multiple Diseases Prection/heart_disease_prediction_model.sav"','rb'))
 diabetes_disease_model=pickle.load(open('D:Multiple Diseases Prection/diabetes_model2.sav','rb'))
-breastcancer_model=pickle.load(open('"D:Multiple Diseases Prection/breastcancer_model.sav"','rb'))
+breastcancer_model=pickle.load(open('"D:/Multiple Diseases Prection/breastcancer_model.sav"','rb'))
 #sidebar for navigation
 with st.sidebar:
     selected=option_menu('Multiple Diseases Prediction',
