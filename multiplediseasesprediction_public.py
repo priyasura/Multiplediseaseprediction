@@ -3,7 +3,7 @@ import streamlit as st
 
 from streamlit_option_menu import option_menu
 
-heart_disease_model=pickle.load(open("D:\MultipleDiseasePrediction\heart_disease_prediction_model.sav","rb"))
+heart_disease_model=pickle.load(open("D:/MultipleDiseasePrediction/heart_disease_prediction_model.sav","rb"))
 #heart_disease_model=pickle.load(open('D:/MultipleDiseasePrediction/heart_disease_prediction_model.sav','rb'))
 #diabetes_disease_model=pickle.load(open('D:/MultipleDiseasePrediction/diabetes_model2.sav','rb'))
 #breastcancer_model=pickle.load(open('D:/MultipleDiseasePrediction/breastcancer_modelnew.sav','rb'))
